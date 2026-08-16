@@ -865,6 +865,7 @@ __DATA__
     cards: [],
     cardIndex: 0,
     cardFlipped: false,
+    advanceTimer: null,
   }
 
   function show(name) {
@@ -1177,14 +1178,16 @@ __DATA__
     $("flagBtn").textContent = state.flags[i] ? "★ برداشتن نشان" : "☆ نشان‌گذاری"
     $("flagBtn").classList.toggle("on", !!state.flags[i])
     $("nextBtn").textContent = (i === total - 1) ? "پایان" : "بعدی"
+    $("nextBtn").style.visibility = meta.noBack || meta.battle ? "hidden" : "visible"
     $("finishBtn").classList.toggle("hidden", meta.noBack || meta.battle || state.mode === "adaptive")
 
     const locked = state.locked[i]
+    const reveal = locked && (state.feedbackOn || state.mode === "adaptive")
     const box = $("options")
     box.innerHTML = q.options.map((opt, oi) => {
       let cls = "option"
       if (state.answers[i] === oi) cls += " selected"
-      if (locked) {
+      if (reveal) {
         if (oi === q.correct) cls += " correct"
         else if (state.answers[i] === oi && oi !== q.correct) cls += " wrong"
       }
@@ -1197,9 +1200,11 @@ __DATA__
         if (state.locked[i]) return
         const oi = Number(btn.dataset.oi)
         state.answers[i] = oi
-        if (state.feedbackOn || state.mode === "adaptive") {
+        const shouldReveal = state.feedbackOn || state.mode === "adaptive"
+        const shouldLock = shouldReveal || meta.battle || meta.noBack
+        if (shouldLock) {
           state.locked[i] = true
-          if (oi !== q.correct) addWrong(q)
+          if (shouldReveal && oi !== q.correct) addWrong(q)
           if (state.mode === "adaptive") {
             if (oi === q.correct) state.adaptiveLevel = Math.min(2, state.adaptiveLevel + 1)
             else state.adaptiveLevel = Math.max(0, state.adaptiveLevel - 1)
@@ -1207,7 +1212,11 @@ __DATA__
         }
         if (meta.battle || meta.noBack) {
           renderQuiz()
-          setTimeout(() => advanceOrFinish(), state.feedbackOn ? 700 : 180)
+          if (state.advanceTimer) clearTimeout(state.advanceTimer)
+          state.advanceTimer = setTimeout(() => {
+            state.advanceTimer = null
+            advanceOrFinish()
+          }, state.feedbackOn ? 700 : 180)
           return
         }
         renderQuiz()
@@ -1228,6 +1237,10 @@ __DATA__
   }
 
   function abortQuiz() {
+    if (state.advanceTimer) {
+      clearTimeout(state.advanceTimer)
+      state.advanceTimer = null
+    }
     stopTimer()
     closeAbortModal()
     state.questions = []
@@ -1308,6 +1321,10 @@ __DATA__
   }
 
   function finishQuiz(fromTimer) {
+    if (state.advanceTimer) {
+      clearTimeout(state.advanceTimer)
+      state.advanceTimer = null
+    }
     stopTimer()
     const g = grade()
     state.lastGrade = g
@@ -1324,8 +1341,9 @@ __DATA__
     }
 
     let gain = applyXp(g)
-    if (state.duel.score1) {
-      gain += applyXp(state.duel.score1)
+    const duelScore1 = state.duel.score1
+    if (duelScore1) {
+      gain += applyXp(duelScore1)
     }
     $("scorePct").textContent = g.pct + "٪"
     let sub = MODE_META[state.mode].title
@@ -1339,8 +1357,8 @@ __DATA__
     $("reviewBox").innerHTML = ""
 
     const cmp = $("duelCompare")
-    if (state.duel.active && state.duel.score1) {
-      const s1 = state.duel.score1
+    if (state.duel.active && duelScore1) {
+      const s1 = duelScore1
       const s2 = g
       let winner = "مساوی!"
       if (s1.pct > s2.pct) winner = "برنده: " + state.duel.p1
@@ -1349,8 +1367,11 @@ __DATA__
       cmp.innerHTML = '<div class="panel" style="margin:0;box-shadow:none"><strong>' + winner + "</strong><div style='margin-top:8px'>" +
         state.duel.p1 + ": " + s1.pct + "٪ (" + s1.ok + "/" + s1.total + ")<br>" +
         state.duel.p2 + ": " + s2.pct + "٪ (" + s2.ok + "/" + s2.total + ")</div></div>"
-      state.duel.active = false
     } else cmp.classList.add("hidden")
+
+    state.duel.active = false
+    state.duel.score1 = null
+    state.duel.sharedQs = null
 
     renderProfile()
     show("result")
@@ -1462,6 +1483,8 @@ __DATA__
         state.duel = { active: true, turn: 1, p1: "بازیکن ۱", p2: "بازیکن ۲", score1: null, sharedQs: null }
       } else {
         state.duel.active = false
+        state.duel.score1 = null
+        state.duel.sharedQs = null
       }
       state.topic = null
       openSetup(mode)
