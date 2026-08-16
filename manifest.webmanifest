@@ -1,7 +1,7 @@
 {
   "name": "SolidWorks Quiz",
   "short_name": "SW Quiz",
-  "start_url": "index.html",
+  "start_url": "solidworks-quiz.html",
   "display": "standalone",
   "background_color": "#f4f8f7",
   "theme_color": "#0c4547",

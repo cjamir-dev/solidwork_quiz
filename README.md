@@ -4,14 +4,14 @@
 
 ## اجرا
 
-1. فایل `index.html` را با مرورگر باز کنید.
+1. فایل `solidworks-quiz.html` را با مرورگر باز کنید.
 2. برای حس اپ روی موبایل، کل پوشه را کپی کنید و از منوی مرورگر **Add to Home Screen** را بزنید.
 
 فایل‌های لازم برای اجرا:
 
 | فایل | نقش |
 |------|-----|
-| `index.html` | اپ کامل (سوالات + رابط کاربری) |
+| `solidworks-quiz.html` | اپ کامل (سوالات + رابط کاربری) |
 | `manifest.webmanifest` | پشتیبانی افزودن به صفحه اصلی |
 | `icon.svg` | آیکن اپ |
 
@@ -33,12 +33,12 @@
 
 ```text
 quiz/
-├── index.html            # نسخه آماده اجرا
+├── solidworks-quiz.html  # نسخه آماده اجرا
 ├── manifest.webmanifest
 ├── icon.svg
 ├── bank.json             # بانک سوالات غنی‌شده
 ├── exams.json            # خروجی خام امتحان‌ها
-├── enrich_and_build.py   # ساخت مجدد index.html از بانک سوالات
+├── enrich_and_build.py   # ساخت مجدد اپ از بانک سوالات
 └── build_quiz.py         # اسکریپت اولیه ساخت داده
 ```
 
@@ -50,11 +50,11 @@ quiz/
 python enrich_and_build.py
 ```
 
-این دستور `index.html`، `bank.json`، `manifest.webmanifest` و `icon.svg` را دوباره می‌سازد.
+این دستور `solidworks-quiz.html`، `bank.json`، `manifest.webmanifest` و `icon.svg` را دوباره می‌سازد.
 
 ## نکات
 
-- سوالات داخل `index.html` embed شده‌اند تا روی `file://` هم بدون مشکل CORS کار کند.
+- سوالات داخل `solidworks-quiz.html` embed شده‌اند تا روی `file://` هم بدون مشکل CORS کار کند.
 - داده کاربر (XP، تم، کارت غلط‌ها) فقط روی همان مرورگر/دستگاه می‌ماند.
 - بخش **درباره من** داخل اپ برای معرفی سازنده آماده است.
 

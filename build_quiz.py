@@ -973,7 +973,7 @@ __DATA__
 '''
 
 out = html.replace("__DATA__", DATA_JS.strip())
-Path(r"d:\new app\quiz\index.html").write_text(out, encoding="utf-8")
+Path(r"d:\new app\quiz\solidworks-quiz.html").write_text(out, encoding="utf-8")
 Path(r"d:\new app\quiz\exams.json").write_text(json.dumps(exams, ensure_ascii=False, indent=2), encoding="utf-8")
 print("exams:", [(e["id"], e["count"]) for e in exams])
-print("wrote index.html bytes:", len(out.encode("utf-8")))
+print("wrote solidworks-quiz.html bytes:", len(out.encode("utf-8")))

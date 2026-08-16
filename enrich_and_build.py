@@ -1578,12 +1578,12 @@ __DATA__
 '''
 
 out = html.replace("__DATA__", "window.BANK = " + json.dumps(DATA, ensure_ascii=False) + ";")
-(ROOT / "index.html").write_text(out, encoding="utf-8")
+(ROOT / "solidworks-quiz.html").write_text(out, encoding="utf-8")
 
 (ROOT / "manifest.webmanifest").write_text(json.dumps({
   "name": "SolidWorks Quiz",
   "short_name": "SW Quiz",
-  "start_url": "index.html",
+  "start_url": "solidworks-quiz.html",
   "display": "standalone",
   "background_color": "#f4f8f7",
   "theme_color": "#0c4547",
@@ -1602,3 +1602,4 @@ icon = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 </svg>'''
 (ROOT / "icon.svg").write_text(icon, encoding="utf-8")
 print("done", DATA["total"], "bytes", len(out.encode("utf-8")))
+print("wrote solidworks-quiz.html")
