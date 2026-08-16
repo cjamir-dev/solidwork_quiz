@@ -734,7 +734,7 @@ html[data-theme="dark"] .about-entry{background:var(--card);color:var(--ink)}
     <button type="button" class="toggle on" id="shuffleToggle"><i></i></button>
   </div>
   <div class="row" id="feedbackRow">
-    <div><strong>بازخورد فوری</strong><div style="font-size:.8rem;color:var(--muted)">بعد از هر پاسخ، درست/غلط و توضیح</div></div>
+    <div><strong>بازخورد فوری</strong><div style="font-size:.8rem;color:var(--muted)">بعد از هر پاسخ، گزینه درست سبز و غلط قرمز شود</div></div>
     <button type="button" class="toggle on" id="feedbackToggle"><i></i></button>
   </div>
   <div class="actions">
@@ -764,7 +764,6 @@ html[data-theme="dark"] .about-entry{background:var(--card);color:var(--ink)}
   <div class="q-meta" id="qMeta"></div>
   <p class="q-text" id="qText"></p>
   <div class="options" id="options"></div>
-  <div class="feedback" id="feedback"></div>
   <div class="nav" id="quizNav">
     <button type="button" class="btn btn-secondary" id="prevBtn">قبلی</button>
     <button type="button" class="btn btn-secondary flag-btn" id="flagBtn">☆ نشان</button>
@@ -1192,16 +1191,6 @@ __DATA__
       return '<button type="button" class="' + cls + '" data-oi="' + oi + '"' + (locked ? " disabled" : "") + ">" +
         '<span class="mark">' + LABELS[oi] + "</span><span>" + opt + "</span></button>"
     }).join("")
-
-    const fb = $("feedback")
-    if (locked && state.feedbackOn) {
-      const ok = state.answers[i] === q.correct
-      fb.className = "feedback show " + (ok ? "ok" : "bad")
-      fb.textContent = (ok ? "درست. " : "غلط. ") + q.explain
-    } else {
-      fb.className = "feedback"
-      fb.textContent = ""
-    }
 
     box.querySelectorAll(".option").forEach((btn) => {
       btn.addEventListener("click", () => {
