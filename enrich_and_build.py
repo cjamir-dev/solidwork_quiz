@@ -324,6 +324,9 @@ html[data-theme="dark"] .about-entry{background:var(--card);color:var(--ink)}
 .about-body p{margin:0 0 10px}
 .about-body p:last-child{margin-bottom:0}
 .about-body a{color:var(--accent);font-weight:700;word-break:break-all;text-decoration:underline}
+.about-reset-note{
+  margin:14px 0 0;color:var(--muted);font-size:.82rem;line-height:1.7;font-weight:500;text-align:right;
+}
 @keyframes rise{
   from{opacity:0;transform:translateY(10px)}
   to{opacity:1;transform:translateY(0)}
@@ -689,11 +692,24 @@ html[data-theme="dark"] .about-entry{background:var(--card);color:var(--ink)}
       <p>می‌توانید سورس این برنامه را از لینک زیر دانلود کنید:</p>
       <p><a href="https://github.com/cjamir-dev/solidwork_quiz/" target="_blank" rel="noopener noreferrer">https://github.com/cjamir-dev/solidwork_quiz/</a></p>
     </div>
+    <p class="about-reset-note">با ریست، فقط داده همین اپ (امتیاز، سطح، استریک، کارت غلط‌ها و تم) پاک می‌شود و روی بقیه سایت‌ها و اپ‌ها اثر ندارد.</p>
   </div>
   <div class="actions">
+    <button type="button" class="btn btn-danger" id="resetAppBtn">ریست داده‌های اپ</button>
     <button type="button" class="btn btn-secondary" data-back="home">بازگشت</button>
   </div>
 </section>
+
+<div id="resetModal" class="modal-back hidden">
+  <div class="modal-sheet" role="dialog" aria-modal="true" aria-labelledby="resetTitle">
+    <h3 id="resetTitle">ریست داده‌های اپ؟</h3>
+    <p id="resetMsg">امتیاز، سطح، استریک، کارت مرور غلط‌ها و تنظیم تم پاک می‌شود. این کار فقط برای همین اپ است و قابل برگشت نیست.</p>
+    <div class="modal-actions">
+      <button type="button" class="btn btn-danger" id="resetConfirm">بله، همه چیز پاک شود</button>
+      <button type="button" class="btn btn-secondary" id="resetCancel">انصراف</button>
+    </div>
+  </div>
+</div>
 
 <section id="screen-topics" class="panel hidden">
   <h2 class="page-title">موضوع را انتخاب کنید</h2>
@@ -1566,6 +1582,43 @@ __DATA__
   })
 
   $("aboutBtn").addEventListener("click", () => show("about"))
+
+  function openResetModal() {
+    $("resetModal").classList.remove("hidden")
+  }
+
+  function closeResetModal() {
+    $("resetModal").classList.add("hidden")
+  }
+
+  function clearAppStorage() {
+    Object.values(KEYS).forEach((key) => localStorage.removeItem(key))
+    const toRemove = []
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i)
+      if (key && key.indexOf("swq_") === 0) toRemove.push(key)
+    }
+    toRemove.forEach((key) => localStorage.removeItem(key))
+  }
+
+  function resetAppData() {
+    clearAppStorage()
+    state.cards = []
+    state.cardIndex = 0
+    state.cardFlipped = false
+    applyTheme("light")
+    renderProfile()
+    closeResetModal()
+    show("home")
+    alert("داده‌های این اپ پاک شد.")
+  }
+
+  $("resetAppBtn").addEventListener("click", openResetModal)
+  $("resetCancel").addEventListener("click", closeResetModal)
+  $("resetConfirm").addEventListener("click", resetAppData)
+  $("resetModal").addEventListener("click", (e) => {
+    if (e.target.id === "resetModal") closeResetModal()
+  })
 
   $("themeBtn").addEventListener("click", () => {
     const cur = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light"
