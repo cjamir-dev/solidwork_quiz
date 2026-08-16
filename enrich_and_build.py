@@ -321,6 +321,9 @@ html[data-theme="dark"] .badge{
 html[data-theme="dark"] .about-body{background:rgba(245,251,250,.04)}
 html[data-theme="dark"] .about-entry{background:var(--card);color:var(--ink)}
 .about-body strong{color:var(--ink);font-weight:700}
+.about-body p{margin:0 0 10px}
+.about-body p:last-child{margin-bottom:0}
+.about-body a{color:var(--accent);font-weight:700;word-break:break-all;text-decoration:underline}
 @keyframes rise{
   from{opacity:0;transform:translateY(10px)}
   to{opacity:1;transform:translateY(0)}
@@ -679,11 +682,12 @@ html[data-theme="dark"] .about-entry{background:var(--card);color:var(--ink)}
     <div class="about-avatar" aria-hidden="true">
       <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3.2" stroke="currentColor" stroke-width="1.7"/><path d="M5 19c1.8-3.2 4-4.5 7-4.5S17.2 15.8 19 19" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
     </div>
-    <h2 class="about-name" id="aboutName">به‌زودی</h2>
-    <p class="about-role" id="aboutRole">سازنده SolidWorks Quiz</p>
+    <h2 class="about-name" id="aboutName">SolidWorks Quiz</h2>
+    <p class="about-role" id="aboutRole">نسخه رایگان آموزشی</p>
     <div class="about-body" id="aboutContent">
-      <strong>نام:</strong> به‌زودی تکمیل می‌شود<br>
-      <strong>توضیحات:</strong> این بخش برای معرفی سازنده اپ آماده شده. اطلاعات دقیق را بعداً اینجا می‌نویسیم.
+      <p>سلام. این برنامه به صورت رایگان جهت استفاده دانش‌آموختگان نرم‌افزار سالید نوشته شده و کاملاً به صورت رایگان هست.</p>
+      <p>می‌توانید سورس این برنامه را از لینک زیر دانلود کنید:</p>
+      <p><a href="https://github.com/cjamir-dev/solidwork_quiz/" target="_blank" rel="noopener noreferrer">https://github.com/cjamir-dev/solidwork_quiz/</a></p>
     </div>
   </div>
   <div class="actions">
