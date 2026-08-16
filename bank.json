@@ -1,0 +1,1799 @@
+{
+  "questions": [
+    {
+      "uid": "q1",
+      "text": "نرم‌افزار SolidWorks شامل کدام فصل‌ها می‌باشد؟",
+      "options": [
+        "Part ، Assembly ، Drawing",
+        "Part ، Pard ، Assembly ، Design",
+        "Part ، Drawing ، Pard",
+        "Part ، Surface ، Animation"
+      ],
+      "correct": 0,
+      "topic": "general",
+      "difficulty": "easy",
+      "explain": "سه محیط اصلی SolidWorks عبارتند از Part، Assembly و Drawing."
+    },
+    {
+      "uid": "q2",
+      "text": "جهت افزایش کیفیت خطوط و گوشه‌ها در محیط گرافیکی از کدام دستور استفاده می‌شود؟",
+      "options": [
+        "Line Quality",
+        "Edge Quality",
+        "Image Quality",
+        "گزینه ۱ و ۲"
+      ],
+      "correct": 2,
+      "topic": "general",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Image Quality» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q3",
+      "text": "از این دستور جهت ترسیم خطوط کمکی استفاده می‌کنیم؟",
+      "options": [
+        "Construction Line",
+        "Centerline",
+        "Hidden Line",
+        "Over Line"
+      ],
+      "correct": 0,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Construction Line» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q4",
+      "text": "مسیر اجرای دستور Line کدام گزینه می‌باشد؟",
+      "options": [
+        "Tools → Setting",
+        "Tools → Line → Setting",
+        "Tools → Options",
+        "Tools → Sketch Tools"
+      ],
+      "correct": 3,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Tools → Sketch Tools» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q5",
+      "text": "آبی بودن رنگ ترسیمات نشانگر حالت .................... می‌باشد.",
+      "options": [
+        "Under Defined",
+        "Over Defined",
+        "Fully Defined",
+        "Owner Defined"
+      ],
+      "correct": 0,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Under Defined» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q6",
+      "text": "از این دستور جهت قیدگذاری استفاده می‌شود؟",
+      "options": [
+        "Smart Dimension",
+        "Add Relation",
+        "Measure",
+        "Fix"
+      ],
+      "correct": 1,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Add Relation» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q7",
+      "text": "دستور Pattern همان دستور ........................ می‌باشد.",
+      "options": [
+        "Array",
+        "Mirror",
+        "Copy",
+        "Rotate"
+      ],
+      "correct": 0,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Array» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q8",
+      "text": "از این دستور می‌توان تمامی لبه‌های یک اسکچ را روی اسکچ حاضر تصویر نمود؟",
+      "options": [
+        "Instances",
+        "Image",
+        "Convert Entities",
+        "Copy"
+      ],
+      "correct": 2,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Convert Entities» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q9",
+      "text": "از قید Pierce در ترسیماتی با دستور ........................ استفاده می‌شود.",
+      "options": [
+        "Cut / Sweep",
+        "Sweep",
+        "Rotate",
+        "Array"
+      ],
+      "correct": 0,
+      "topic": "sketch",
+      "difficulty": "hard",
+      "explain": "پاسخ درست «Cut / Sweep» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q10",
+      "text": "کدام گزینه در قسمت End Condition نشانگر ایجاد یک سوراخ سراسری می‌باشد؟",
+      "options": [
+        "Blind",
+        "Up To Next",
+        "Through All",
+        "Up To Surface"
+      ],
+      "correct": 2,
+      "topic": "general",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Through All» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q11",
+      "text": "از این دستور جهت ایجاد پره (تیغه کمکی) استفاده می‌شود؟",
+      "options": [
+        "Rip",
+        "Rib",
+        "Shell",
+        "Loft"
+      ],
+      "correct": 1,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Rib» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q12",
+      "text": "از این دستور جهت ایجاد پوسته‌ای با ضخامت‌های مختلف از قطعه استفاده می‌شود؟",
+      "options": [
+        "Mate",
+        "Rib",
+        "Shell",
+        "Loft"
+      ],
+      "correct": 2,
+      "topic": "assembly",
+      "difficulty": "easy",
+      "explain": "پاسخ درست «Shell» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q13",
+      "text": "از این دستور جهت قیدگذاری قطعات در قسمت Assembly استفاده می‌شود؟",
+      "options": [
+        "Mate",
+        "Rib",
+        "Draft",
+        "Loft"
+      ],
+      "correct": 0,
+      "topic": "assembly",
+      "difficulty": "easy",
+      "explain": "پاسخ درست «Mate» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q14",
+      "text": "از این دستور جهت سنجش وزن، حجم و غیره استفاده می‌شود؟",
+      "options": [
+        "Dimension",
+        "Mass Properties",
+        "Meter",
+        "Kiloton"
+      ],
+      "correct": 1,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Mass Properties» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q15",
+      "text": "از این دستور جهت غیرفعال کردن قسمتی از قطعه استفاده می‌شود؟",
+      "options": [
+        "Off",
+        "Revolve",
+        "Suppress",
+        "Resolve"
+      ],
+      "correct": 2,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Suppress» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q16",
+      "text": "از این قید جهت قیدگذاری بادامک‌ها و پیروها استفاده می‌شود؟",
+      "options": [
+        "Gear",
+        "Parallel",
+        "Tangent",
+        "Cam"
+      ],
+      "correct": 3,
+      "topic": "assembly",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Cam» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q17",
+      "text": "از این دستور جهت ایجاد نمای انفجاری (Demontage) بدون به‌هم زدن قیود استفاده می‌شود؟",
+      "options": [
+        "Exploded View",
+        "Exploded Smart",
+        "Physical Dynamics",
+        "Advanced Option"
+      ],
+      "correct": 0,
+      "topic": "drawing",
+      "difficulty": "hard",
+      "explain": "پاسخ درست «Exploded View» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q18",
+      "text": "از این دستور جهت انتقال قطعات یا نماهای قطعه در محیط Drawing استفاده می‌شود؟",
+      "options": [
+        "Projection View",
+        "Detail View",
+        "Model View",
+        "Auxiliary View"
+      ],
+      "correct": 2,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Model View» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q19",
+      "text": "از این دستور جهت ایجاد برش‌های شکسته و دورانی استفاده می‌شود؟",
+      "options": [
+        "Section View",
+        "Aligned Section",
+        "Standard 3 View",
+        "Standard Section"
+      ],
+      "correct": 1,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Aligned Section» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q20",
+      "text": "ایجاد و مدل‌سازی قطعات ورق بر پایه در قسمت ........................ انجام می‌شود.",
+      "options": [
+        "Metal Edit",
+        "Mesh Edit",
+        "Surfaces",
+        "Sheet Metal"
+      ],
+      "correct": 3,
+      "topic": "sheetmetal",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Sheet Metal» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q21",
+      "text": "از این دستور جهت ایجاد نمای گسترده (گسترش) از یک مدل ورق‌کاری استفاده می‌شود؟",
+      "options": [
+        "Unfold",
+        "Close Corner",
+        "Flatten",
+        "Flat View"
+      ],
+      "correct": 2,
+      "topic": "sheetmetal",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Flatten» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q22",
+      "text": "از این دستور جهت ویرایش یک قطعه (یکی از قطعات) در محیط Assembly استفاده می‌شود؟",
+      "options": [
+        "Edit Part",
+        "Edit Pard",
+        "Open Part",
+        "Edit Component"
+      ],
+      "correct": 0,
+      "topic": "assembly",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Edit Part» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q23",
+      "text": "از این دستور جهت خم کردن یا برگرداندن لبه بدون ترسیم خطوط کمکی در مسیر خم‌های ورق‌کاری استفاده می‌شود؟",
+      "options": [
+        "Sketched Bend",
+        "Hem",
+        "Insert Bends",
+        "Fold"
+      ],
+      "correct": 1,
+      "topic": "sheetmetal",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Hem» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q24",
+      "text": "از این دستور جهت نمایش یا عدم نمایش قطعات در محیط Assembly استفاده می‌شود؟",
+      "options": [
+        "Open / Close",
+        "Hide / Close",
+        "Open / Show",
+        "Hide / Show"
+      ],
+      "correct": 3,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Hide / Show» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q25",
+      "text": "از این دستور جهت جمع کردن (Montage) مجموعه دمونتاژ استفاده می‌شود؟",
+      "options": [
+        "Explode",
+        "Steps",
+        "Collapse",
+        "Apply"
+      ],
+      "correct": 2,
+      "topic": "assembly",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Collapse» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q26",
+      "text": "از این دستور جهت بررسی درگیری قطعات در محیط Assembly استفاده می‌شود؟",
+      "options": [
+        "Interference Detection",
+        "Stop At Collision",
+        "Dragged Assembly Only",
+        "Smart Fasteners"
+      ],
+      "correct": 0,
+      "topic": "assembly",
+      "difficulty": "hard",
+      "explain": "پاسخ درست «Interference Detection» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q27",
+      "text": "از دستور Model Items جهت انتقال اندازه‌ها از محیط ........................ به محیط ........................ استفاده می‌شود.",
+      "options": [
+        "Part / Design",
+        "Part / Drawing",
+        "Pard / Drawing",
+        "Pard / Design"
+      ],
+      "correct": 1,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Part / Drawing» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q28",
+      "text": "از دستور ........................ جهت تنظیم قسمت پشت و پس‌زمینه تصویر استفاده می‌شود.",
+      "options": [
+        "Photo Lighting",
+        "Scene",
+        "System Lighting",
+        "Lighting"
+      ],
+      "correct": 1,
+      "topic": "general",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Scene» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q29",
+      "text": "از دستور ........................ جهت درج نوع ماشین‌کاری و کیفیت سطح استفاده می‌شود.",
+      "options": [
+        "Texture",
+        "Material Editor",
+        "Surface Finish",
+        "Metal Editor"
+      ],
+      "correct": 0,
+      "topic": "assembly",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Texture» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q30",
+      "text": "از دستور ........................ جهت حالتی شیشه‌ای استفاده می‌شود.",
+      "options": [
+        "Transparency",
+        "Image Brightness",
+        "Glass Finish",
+        "Glass Form"
+      ],
+      "correct": 0,
+      "topic": "general",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Transparency» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q31",
+      "text": "از دستور ........................ جهت تنظیمات برای قطعه و سایه، پردازشی، درخشندگی و غیره استفاده می‌شود.",
+      "options": [
+        "Image Brightness",
+        "PhotoWorks",
+        "Render",
+        "Image Render"
+      ],
+      "correct": 1,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «PhotoWorks» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q32",
+      "text": "از این دستور جهت Render آخرین قسمت انتخابی بر روی قطعه استفاده می‌شود؟",
+      "options": [
+        "Render Selection",
+        "Render To File",
+        "Render Finish Area",
+        "Render Last"
+      ],
+      "correct": 3,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Render Last» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q33",
+      "text": "از این دستور جهت تنظیمات اندازه عکس قطعه استفاده می‌شود؟",
+      "options": [
+        "Photo Size",
+        "Picture Size",
+        "Image Size",
+        "Pixel Size"
+      ],
+      "correct": 2,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Image Size» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q34",
+      "text": "از دستور ........................ جهت حفظ تناسب طول و عرض کاغذ در دستور Sizing استفاده می‌شود.",
+      "options": [
+        "Fixed Aspect Ratio / Sizing",
+        "Fixed Aspect Ratio / PhotoWorks",
+        "Pixel / Sizing",
+        "Pixel / PhotoWorks"
+      ],
+      "correct": 1,
+      "topic": "general",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Fixed Aspect Ratio / PhotoWorks» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q35",
+      "text": "از این دستور جهت بریدن گوشه‌ای از یک قطعه مکعبی‌شکل استفاده می‌شود؟",
+      "options": [
+        "Rip",
+        "Rib",
+        "Extrude Cut",
+        "Edge Cut"
+      ],
+      "correct": 0,
+      "topic": "part",
+      "difficulty": "easy",
+      "explain": "پاسخ درست «Rip» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q36",
+      "text": "از این دستور جهت خم کردن یا برگرداندن لبه‌های اسکچ در امتداد دلخواه ورق استفاده می‌شود؟",
+      "options": [
+        "Close Corner",
+        "Miter Flange",
+        "Flatten",
+        "Coincident"
+      ],
+      "correct": 1,
+      "topic": "sheetmetal",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Miter Flange» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q37",
+      "text": "از این دستور جهت انتقال قطعات از محیط Part به محیط Sheet Metal استفاده می‌شود؟",
+      "options": [
+        "Insert Component",
+        "Model View",
+        "Insert View",
+        "Insert Bends"
+      ],
+      "correct": 3,
+      "topic": "sheetmetal",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Insert Bends» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q38",
+      "text": "از این دستور جهت ایجاد سوراخ استاندارد در محیط Sheet Metal استفاده می‌شود؟",
+      "options": [
+        "Standard Hole",
+        "Hole Wizard",
+        "Simple Hole",
+        "Insert Hole"
+      ],
+      "correct": 2,
+      "topic": "sheetmetal",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Simple Hole» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q39",
+      "text": "از این دستور جهت تحلیل تنش‌های کششی و فشاری استفاده می‌شود؟",
+      "options": [
+        "Cosmos / Simulation",
+        "Restraint",
+        "Ansys",
+        "Hysys"
+      ],
+      "correct": 0,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Cosmos / Simulation» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q40",
+      "text": "سریع‌ترین و مناسب‌ترین دستور جهت ایجاد یک حجم مخروطی یا کروی در SolidWorks چیست؟",
+      "options": [
+        "Loft",
+        "Revolved Boss/Base",
+        "Sweep",
+        "گزینه ۱ و ۳"
+      ],
+      "correct": 1,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Revolved Boss/Base» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q41",
+      "text": "از این دستور جهت ایجاد پوسته با ضخامت‌های گوناگون برای انواع لبه‌ها در دستور Shell استفاده می‌شود؟",
+      "options": [
+        "Depth",
+        "Multi-thickness Settings",
+        "Faces to Remove",
+        "Shell Outward"
+      ],
+      "correct": 1,
+      "topic": "part",
+      "difficulty": "hard",
+      "explain": "پاسخ درست «Multi-thickness Settings» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q42",
+      "text": "مسیر اجرای یک دستور در نوار ابزار کدام گزینه می‌باشد؟",
+      "options": [
+        "Tools → Customize",
+        "Tools → Setting",
+        "Tools → Options",
+        "Tools → Add-Ins"
+      ],
+      "correct": 0,
+      "topic": "general",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Tools → Customize» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q43",
+      "text": "مسیر ورود قطعات استاندارد کدام گزینه می‌باشد؟",
+      "options": [
+        "Tools → Customize",
+        "Tools → Setting",
+        "Tools → Add-Ins",
+        "Tools → Options"
+      ],
+      "correct": 2,
+      "topic": "general",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Tools → Add-Ins» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q44",
+      "text": "بخش ........................ مربوط به قطعات طبق استاندارد و کارخانجات سازنده می‌باشد.",
+      "options": [
+        "Standard Design",
+        "Standard Material",
+        "Design Box",
+        "Design Library"
+      ],
+      "correct": 3,
+      "topic": "assembly",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Design Library» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q45",
+      "text": "در دستور Feature اگر محیط اسکچ بسته نباشد کدام گزینه به‌صورت خودکار ظاهر می‌شود؟",
+      "options": [
+        "Thin Feature",
+        "Error",
+        "Fat",
+        "Non Set"
+      ],
+      "correct": 0,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Thin Feature» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q46",
+      "text": "محور راهنما در SolidWorks چه نامیده می‌شود؟",
+      "options": [
+        "Base",
+        "Axis",
+        "Mach",
+        "Centerline"
+      ],
+      "correct": 1,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Axis» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q47",
+      "text": "گزینه Up To Vertex در دستور Extrude به چه معناست؟",
+      "options": [
+        "تا صفحه بعدی",
+        "تا موضوع بعدی",
+        "تا نقطه بعدی",
+        "تا لبه بعدی"
+      ],
+      "correct": 2,
+      "topic": "part",
+      "difficulty": "easy",
+      "explain": "پاسخ درست «تا نقطه بعدی» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q48",
+      "text": "در دستور Construction گزینه Concentric به چه معناست؟",
+      "options": [
+        "توازی",
+        "هم‌محوری",
+        "تعامد",
+        "منطبق"
+      ],
+      "correct": 1,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «هم‌محوری» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q49",
+      "text": "فایل‌های اصلی SolidWorks با چه پسوندهایی ذخیره می‌شود؟",
+      "options": [
+        "DWG ، DXF ، HTML",
+        "SLDPRT ، SLDASM ، SLDDRW",
+        "JPG ، PDF ، GIF",
+        "گزینه ۱ و ۳"
+      ],
+      "correct": 1,
+      "topic": "drawing",
+      "difficulty": "easy",
+      "explain": "پاسخ درست «SLDPRT ، SLDASM ، SLDDRW» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q50",
+      "text": "مسیر ورود دستور Plane کدام گزینه می‌باشد؟",
+      "options": [
+        "Options → Plane",
+        "Tools → Plane",
+        "Features → Plane",
+        "Insert → Reference Geometry → Plane"
+      ],
+      "correct": 3,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Insert → Reference Geometry → Plane» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q51",
+      "text": "کدام‌یک از دستورات زیر برای ادامه دادن و رساندن یک خط به خط دیگر کاربرد دارد؟",
+      "options": [
+        "Extend",
+        "Trim",
+        "Move",
+        "Rotate"
+      ],
+      "correct": 0,
+      "topic": "sketch",
+      "difficulty": "easy",
+      "explain": "دستور Extend خط را تا برخورد با لبه یا خط دیگر ادامه می‌دهد."
+    },
+    {
+      "uid": "q52",
+      "text": "برای هم‌مرکز کردن دو دایره یا کمان از کدام قید استفاده می‌نماییم؟",
+      "options": [
+        "Perpendicular",
+        "Parallel",
+        "Tangent",
+        "Concentric"
+      ],
+      "correct": 3,
+      "topic": "sketch",
+      "difficulty": "easy",
+      "explain": "قید Concentric مراکز دو دایره یا کمان را روی هم منطبق می‌کند."
+    },
+    {
+      "uid": "q53",
+      "text": "جهت مساوی کردن طول دو خط یا شعاع دو کمان از کدام قید استفاده می‌نماییم؟",
+      "options": [
+        "Equal",
+        "Vertical",
+        "Horizontal",
+        "Symmetric"
+      ],
+      "correct": 0,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Equal» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q54",
+      "text": "از قید Concentric در چه مواردی استفاده می‌شود؟",
+      "options": [
+        "هم‌راستا کردن دو خط از طرح دوبعدی",
+        "قرار دادن دو نقطه از طرح روی یکدیگر",
+        "تثبیت مختصات مطلق یک جزء از طرح دوبعدی",
+        "متقارن کردن دو جزء نسبت به یک خط"
+      ],
+      "correct": 1,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «قرار دادن دو نقطه از طرح روی یکدیگر» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q55",
+      "text": "جهت عمود شدن به یک صفحه کاری از کدام دستور می‌توان استفاده نمود؟",
+      "options": [
+        "Normal To",
+        "Update",
+        "Look At",
+        "Rotate"
+      ],
+      "correct": 0,
+      "topic": "general",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Normal To» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q56",
+      "text": "پسوند مورد نیاز برای Save ناحیه کاری Part Mode کدام گزینه می‌باشد؟",
+      "options": [
+        "*.sldasm",
+        "*.sldprt",
+        "*.slddrw",
+        "*.eprt"
+      ],
+      "correct": 1,
+      "topic": "general",
+      "difficulty": "easy",
+      "explain": "فایل قطعه با پسوند *.sldprt ذخیره می‌شود."
+    },
+    {
+      "uid": "q57",
+      "text": "برای دسترسی به پارامترهای موضوع انتخابی در نرم‌افزار از کدام قسمت استفاده می‌نماییم؟",
+      "options": [
+        "Feature Manager",
+        "Property Manager",
+        "Configuration",
+        "DimXpert"
+      ],
+      "correct": 1,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Property Manager» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q58",
+      "text": "در اشکال دوبعدی، مشخصه انتهای خط کدام پارامتر می‌باشد؟",
+      "options": [
+        "Pivot",
+        "Mid Point",
+        "End Point",
+        "Bounding"
+      ],
+      "correct": 2,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «End Point» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q59",
+      "text": "کاربرد دستورات Fillet و Chamfer چیست؟",
+      "options": [
+        "گرد کردن لبه‌ها",
+        "گرد کردن و پخ زدن به لبه‌ها",
+        "زاویه‌دار کردن لبه‌ها",
+        "اریب دادن اجسام"
+      ],
+      "correct": 1,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «گرد کردن و پخ زدن به لبه‌ها» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q60",
+      "text": "در دستور Offset، انتخاب گزینه Select Chain باعث می‌شود که؟",
+      "options": [
+        "فقط موضوع مورد نظر انتخاب شود",
+        "تمامی موضوعات پیوسته انتخاب شوند",
+        "تمامی موضوعات غیرپیوسته نیز انتخاب شوند",
+        "جهت اجرای طراحی برعکس شود"
+      ],
+      "correct": 0,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «فقط موضوع مورد نظر انتخاب شود» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q61",
+      "text": "جهت چرخاندن و تغییر مقیاس اشکال دوبعدی به‌ترتیب باید از کدام دستورات استفاده نمود؟",
+      "options": [
+        "Move ، Rotate",
+        "Rotate ، Stretch",
+        "Rotate ، Scale",
+        "Move ، Copy"
+      ],
+      "correct": 2,
+      "topic": "general",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Rotate ، Scale» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q62",
+      "text": "برای هم‌راستا قرار دادن دو خط باید از کدام قید استفاده نمود؟",
+      "options": [
+        "Collinear",
+        "Perpendicular",
+        "Equal",
+        "Fix"
+      ],
+      "correct": 0,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Collinear» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q63",
+      "text": "زمانی که بین دو خط نسبت به یکدیگر قید توازی قرار داده می‌شود، در این صورت:",
+      "options": [
+        "حرکت یک خط باعث حرکت خط بعدی می‌شود",
+        "تحت هر شرایطی این دو خط نسبت به هم موازی خواهند بود",
+        "در زمان حرکت تأثیر قید بین دو خط از بین خواهد رفت",
+        "موارد الف و ب درست می‌باشد"
+      ],
+      "correct": 3,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «موارد الف و ب درست می‌باشد» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q64",
+      "text": "اندازه شناور به اندازه‌ای گفته می‌شود که:",
+      "options": [
+        "نمی‌توان آن را تغییر داد",
+        "تغییر آن به تغییر اندازه‌های کناری آن وابسته است",
+        "قبل از اجرا پیغامی به طرح می‌دهد که اندازه به‌صورت شناور خواهد بود",
+        "همه موارد"
+      ],
+      "correct": 3,
+      "topic": "general",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «همه موارد» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q65",
+      "text": "در دستور Extrude با کدام قسمت می‌توان مقدار عددی Extrude را تعیین کرد؟",
+      "options": [
+        "Up To Next",
+        "Up To Vertex",
+        "Blind",
+        "Up To Surface"
+      ],
+      "correct": 2,
+      "topic": "part",
+      "difficulty": "easy",
+      "explain": "در حالت Blind مقدار عددی عمق Extrude را خودتان وارد می‌کنید."
+    },
+    {
+      "uid": "q66",
+      "text": "زمانی که بخواهیم عمل Extrude به‌صورت دوطرفه از Sketch مورد نظر انجام شود باید از کدام گزینه استفاده کنیم؟",
+      "options": [
+        "Up To Vertex",
+        "Up To Surface",
+        "Mid Plane",
+        "Offset From Surface"
+      ],
+      "correct": 2,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "Mid Plane اکسترود را به‌صورت متقارن از دو طرف صفحه اسکچ انجام می‌دهد."
+    },
+    {
+      "uid": "q67",
+      "text": "گزینه Draft در دستور Extrude چه عملی را انجام می‌دهد؟",
+      "options": [
+        "باعث ایجاد ضخامت می‌شود",
+        "باعث ایجاد Extrude از یک سطح دیگر می‌شود",
+        "باعث تغییر جهت عمل Extrude می‌شود",
+        "باعث ایجاد زاویه در طول شکل مورد نظر می‌شود"
+      ],
+      "correct": 3,
+      "topic": "part",
+      "difficulty": "easy",
+      "explain": "پاسخ درست «باعث ایجاد زاویه در طول شکل مورد نظر می‌شود» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q68",
+      "text": "برای ایجاد ضخامت روی اشکال از کدام گزینه می‌توان استفاده نمود؟",
+      "options": [
+        "Thin Feature",
+        "Selected Contours",
+        "Direction",
+        "From"
+      ],
+      "correct": 0,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Thin Feature» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q69",
+      "text": "انتخاب یک لبه یا یک رأس برای اجرای کدام گزینه دستور Extrude نیاز می‌باشد؟",
+      "options": [
+        "Up To Next",
+        "Up To Vertex",
+        "Up To Body",
+        "Up To Surface"
+      ],
+      "correct": 1,
+      "topic": "part",
+      "difficulty": "easy",
+      "explain": "پاسخ درست «Up To Vertex» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q70",
+      "text": "برای ایجاد یک کره کدام دستور زیر کارایی دارد؟",
+      "options": [
+        "Extrude",
+        "Revolve",
+        "Swept",
+        "Boundary"
+      ],
+      "correct": 1,
+      "topic": "part",
+      "difficulty": "easy",
+      "explain": "پاسخ درست «Revolve» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q71",
+      "text": "اشکال مورد نیاز برای اجرای دستور Swept کدامند؟",
+      "options": [
+        "دو شکل بسته",
+        "دو شکل باز",
+        "یک شکل بسته و یک شکل باز",
+        "دو جسم سه‌بعدی"
+      ],
+      "correct": 2,
+      "topic": "general",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «یک شکل بسته و یک شکل باز» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q72",
+      "text": "برای طراحی بدنه یک قطعه‌ای به شکل خودکار، بهترین روش استفاده از کدام دستور می‌باشد؟",
+      "options": [
+        "Revolve",
+        "Loft",
+        "Extrude",
+        "هر سه مورد"
+      ],
+      "correct": 1,
+      "topic": "part",
+      "difficulty": "easy",
+      "explain": "پاسخ درست «Loft» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q73",
+      "text": "کدام‌یک از روش‌های زیر برای طراحی یک کمان مابین دو خط کارایی دارد؟",
+      "options": [
+        "Centerpoint Arc",
+        "Tangent Arc",
+        "3 Point Arc",
+        "موارد ب و ج درست است"
+      ],
+      "correct": 3,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «موارد ب و ج درست است» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q74",
+      "text": "کاربرد دستور Tangent چیست؟",
+      "options": [
+        "مماس کردن دو دایره",
+        "تعیین مرکز دوایر",
+        "مشخص کردن انتهای خطوط",
+        "هیچ‌کدام"
+      ],
+      "correct": 0,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «مماس کردن دو دایره» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q75",
+      "text": "با کدام دستور می‌توان از یک فرمان صادرشده خارج شد؟",
+      "options": [
+        "Exit Sketch",
+        "Exit Feature",
+        "Select",
+        "Origin"
+      ],
+      "correct": 2,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Select» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q76",
+      "text": "حاصل اجرای دو قید Concentric و Equal کدام قید زیر می‌شود؟",
+      "options": [
+        "Tangent",
+        "Coradial",
+        "Fix",
+        "Collinear"
+      ],
+      "correct": 1,
+      "topic": "sketch",
+      "difficulty": "hard",
+      "explain": "پاسخ درست «Coradial» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q77",
+      "text": "در کدام‌یک از روش‌های Fillet کردن زیر نمی‌توان مقدار عددی تعیین نمود؟",
+      "options": [
+        "Constant Radius",
+        "Variable Radius",
+        "Face Fillet",
+        "Full Round Fillet"
+      ],
+      "correct": 3,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Full Round Fillet» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q78",
+      "text": "انتخاب Keep Features در دستور Fillet باعث خواهد شد که:",
+      "options": [
+        "گوشه‌های تیز گرد شوند",
+        "اجسام سه‌بعدی در قسمت Fillet باقی بمانند",
+        "عمل Fillet قبل از اجرا دیده شود",
+        "لبه‌های مماس نیز Fillet شوند"
+      ],
+      "correct": 1,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «اجسام سه‌بعدی در قسمت Fillet باقی بمانند» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q79",
+      "text": "چه زمانی از دستور Face Fillet برای گرد کردن لبه‌ها استفاده می‌شود؟",
+      "options": [
+        "زمانی که لبه‌ها شکسته باشند",
+        "زمانی که لبه‌ها منحنی باشند",
+        "زمانی که نتوان به‌آسانی انتخاب کرد",
+        "زمانی که لبه با چند حالت گردی ایجاد می‌کنیم"
+      ],
+      "correct": 2,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «زمانی که نتوان به‌آسانی انتخاب کرد» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q80",
+      "text": "توسط دستور Curve Driven Pattern می‌توان:",
+      "options": [
+        "یک طرح را در امتداد یک مسیر کپی کرد",
+        "یک طرح را بر روی نقاط مشخص‌شده کپی کرد",
+        "یک طرح را به‌صورت مدور کپی کرد",
+        "یک طرح را به‌صورت مستقیم کپی کرد"
+      ],
+      "correct": 0,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «یک طرح را در امتداد یک مسیر کپی کرد» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q81",
+      "text": "در کدام‌یک از دستورات زیر احتیاج به مشخص کردن Coordinate System می‌باشد؟",
+      "options": [
+        "Curve Driven",
+        "Sketch Driven",
+        "Table Driven",
+        "Fill Pattern"
+      ],
+      "correct": 2,
+      "topic": "sketch",
+      "difficulty": "hard",
+      "explain": "پاسخ درست «Table Driven» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q82",
+      "text": "برای حذف قطعات هنگام انجام عمل Array از کدام قسمت می‌توان این کار را انجام داد؟",
+      "options": [
+        "Direction 2",
+        "Features to Pattern",
+        "Bodies",
+        "Instances to Skip"
+      ],
+      "correct": 3,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Instances to Skip» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q83",
+      "text": "برای ایجاد یک قطعه در فاصله مشخص از یک قطعه دیگر بایستی ابتدا:",
+      "options": [
+        "یک Plane طراحی نمود",
+        "یک Axis طراحی نمود",
+        "یک Coordinate System طراحی نمود",
+        "هیچ‌کدام"
+      ],
+      "correct": 0,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «یک Plane طراحی نمود» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q84",
+      "text": "طراحی یک Axis برای کدام‌یک از دستورات زیر نیاز می‌باشد؟",
+      "options": [
+        "Swept",
+        "Loft",
+        "Revolve",
+        "Extrude"
+      ],
+      "correct": 2,
+      "topic": "part",
+      "difficulty": "easy",
+      "explain": "پاسخ درست «Revolve» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q85",
+      "text": "با ایجاد یک لبه مماس بر یک Feature، کدام‌یک از دستورات زیر قابل اجرا می‌باشد؟",
+      "options": [
+        "Rib",
+        "Draft",
+        "Shell",
+        "Mirror"
+      ],
+      "correct": 0,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Rib» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q86",
+      "text": "در دستور Rib اگر گزینه Normal to Sketch فعال باشد، در این صورت:",
+      "options": [
+        "Rib عمود بر سطح Sketch ایجاد می‌شود",
+        "عرض Rib تغییر خواهد کرد",
+        "Rib با زاویه ایجاد می‌شود",
+        "هیچ‌کدام"
+      ],
+      "correct": 0,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Rib عمود بر سطح Sketch ایجاد می‌شود» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q87",
+      "text": "در صورتی که در دستور Shell گزینه Outward فعال باشد:",
+      "options": [
+        "می‌توان به قسمت‌های بیرونی اندازه داد",
+        "می‌توان ضخامت‌های مختلفی برای Shell تعریف کرد",
+        "می‌توان قبل از اجرای Shell وضعیت آن را مشاهده نمود",
+        "هیچ‌کدام"
+      ],
+      "correct": 3,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «هیچ‌کدام» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q88",
+      "text": "کاربرد دستور Composite Curve چیست؟",
+      "options": [
+        "پیوسته کردن لبه‌های یک موضوع Solid",
+        "چند تکه کردن لبه‌های به‌هم‌پیوسته",
+        "ایجاد یک منحنی بر روی یک سطح",
+        "بریدن یک سطح توسط یک خط"
+      ],
+      "correct": 0,
+      "topic": "general",
+      "difficulty": "hard",
+      "explain": "پاسخ درست «پیوسته کردن لبه‌های یک موضوع Solid» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q89",
+      "text": "برای طراحی یک فنر یا رزوه‌های یک پیچ از کدام دستور استفاده می‌کنیم؟",
+      "options": [
+        "Helix",
+        "Helix / Sweep",
+        "Helix / Spiral",
+        "Helix / Curve"
+      ],
+      "correct": 1,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Helix / Sweep» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q90",
+      "text": "کدام‌یک از دستورات زیر برای برش سطوح استفاده می‌شود؟",
+      "options": [
+        "Split",
+        "Composite",
+        "Reference",
+        "Project"
+      ],
+      "correct": 0,
+      "topic": "part",
+      "difficulty": "hard",
+      "explain": "پاسخ درست «Split» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q91",
+      "text": "به قطعه در محیط مونتاژی ........................ می‌گویند.",
+      "options": [
+        "Part",
+        "Component",
+        "Base",
+        "Boss"
+      ],
+      "correct": 1,
+      "topic": "assembly",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Component» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q92",
+      "text": "کدام‌یک از موارد زیر در محیط Assembly به‌حالت ثابت (Fixed) می‌باشند؟",
+      "options": [
+        "قطعه اول",
+        "قطعه دوم",
+        "تمامی قطعات پایه",
+        "هیچ‌کدام از قطعات"
+      ],
+      "correct": 0,
+      "topic": "assembly",
+      "difficulty": "easy",
+      "explain": "اولین قطعه واردشده در Assembly معمولاً Fixed است."
+    },
+    {
+      "uid": "q93",
+      "text": "جهت در روی هم قرار دادن دو مکعب، بهترین قید کدام است؟",
+      "options": [
+        "Coincident",
+        "Parallel",
+        "Perpendicular",
+        "Tangent"
+      ],
+      "correct": 0,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Coincident» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q94",
+      "text": "کاربرد قید Parallel چیست؟",
+      "options": [
+        "موازی کردن دو سطح",
+        "موازی کردن دو رأس",
+        "موازی کردن دو جسم",
+        "موازی کردن دو لبه"
+      ],
+      "correct": 3,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «موازی کردن دو لبه» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q95",
+      "text": "برای در هم‌راستا قرار دادن دو استوانه می‌توان از کدام قید استفاده کرد؟",
+      "options": [
+        "Parallel",
+        "Coincident",
+        "Concentric",
+        "Tangent"
+      ],
+      "correct": 2,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Concentric» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q96",
+      "text": "زمانی که از قید Tangent استفاده می‌شود می‌توان:",
+      "options": [
+        "دو سطح را مماس هم کرد",
+        "دو موضوع استوانه‌ای را مماس هم کرد",
+        "دو مبدأ را مماس هم کرد",
+        "دو رأس را مماس هم کرد"
+      ],
+      "correct": 1,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «دو موضوع استوانه‌ای را مماس هم کرد» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q97",
+      "text": "استفاده از قید Coincident به همراه پارامتر Distance باعث می‌شود که:",
+      "options": [
+        "فاصله بین دو قطعه را مشخص کرد",
+        "نمی‌توان فاصله‌ای را مشخص نمود",
+        "فاصله‌ای به‌صورت اتفاقی بین دو قطعه ایجاد می‌شود",
+        "هیچ‌کدام از موارد فوق"
+      ],
+      "correct": 0,
+      "topic": "sketch",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «فاصله بین دو قطعه را مشخص کرد» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q98",
+      "text": "در صورتی که از گزینه Mate Alignment استفاده شود می‌توان:",
+      "options": [
+        "موضوعات را مماس کرد",
+        "موضوعات را حرکت داد",
+        "موضوعات را چرخاند",
+        "موضوعات را عمود نمود"
+      ],
+      "correct": 2,
+      "topic": "assembly",
+      "difficulty": "hard",
+      "explain": "پاسخ درست «موضوعات را چرخاند» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q99",
+      "text": "جهت حرکت یک موضوع در راستای یک مسیر مشخص باید از کدام دستور استفاده کنیم؟",
+      "options": [
+        "Free Drag",
+        "Along Assembly X,Y,Z",
+        "Along Entity",
+        "موارد ب و ج درست است"
+      ],
+      "correct": 3,
+      "topic": "assembly",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «موارد ب و ج درست است» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q100",
+      "text": "استفاده از دستور Insert Component باعث می‌شود که:",
+      "options": [
+        "بتوان روی موضوعات قید قرار داد",
+        "بتوان قطعات را وارد نمود",
+        "بتوان قطعات را ویرایش نمود",
+        "بتوان به موضوعات حرکات دینامیکی داد"
+      ],
+      "correct": 1,
+      "topic": "assembly",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «بتوان قطعات را وارد نمود» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q101",
+      "text": "تفاوت گزینه‌های Show/Hide با Suppress چیست؟",
+      "options": [
+        "هیچ تفاوتی ندارند",
+        "Show/Hide جای کمتری را اشغال می‌کند",
+        "Suppress فضای کمتری را اشغال می‌کند",
+        "هیچ‌کدام"
+      ],
+      "correct": 2,
+      "topic": "part",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Suppress فضای کمتری را اشغال می‌کند» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q102",
+      "text": "توسط دستور Exploded View می‌توان:",
+      "options": [
+        "قطعات را در محیط به‌صورت دمونتاژ قرار داد",
+        "قطعات را در محیط به‌صورت مونتاژ قرار داد",
+        "خود قطعات را شکست",
+        "سطوح قطعات را از هم تفکیک کرد"
+      ],
+      "correct": 0,
+      "topic": "assembly",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «قطعات را در محیط به‌صورت دمونتاژ قرار داد» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q103",
+      "text": "بعد از وارد کردن قطعه در محیط Assembly اگر بخواهیم قطعه‌ای دیگر بر روی قطعه اصلی ترسیم کنیم باید از کدام گزینه استفاده کنیم؟",
+      "options": [
+        "Edit Part",
+        "Edit Sketch",
+        "Edit Feature",
+        "Edit Drawing"
+      ],
+      "correct": 0,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Edit Part» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q104",
+      "text": "کاربرد دستور Interference Detection چیست؟",
+      "options": [
+        "محاسبه وزن قطعات",
+        "محاسبه مقدار تداخل",
+        "طریقه حرکت موضوعات",
+        "ایجاد نمایه در محیط"
+      ],
+      "correct": 1,
+      "topic": "drawing",
+      "difficulty": "hard",
+      "explain": "پاسخ درست «محاسبه مقدار تداخل» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q105",
+      "text": "برای حذف یک Mate می‌توان از کدام روش استفاده کرد؟",
+      "options": [
+        "در هنگام ایجاد Mate از داخل خود دستور Mate",
+        "از طریق نمودار درختی Feature Manager",
+        "انتخاب Component و زدن دکمه Delete",
+        "موارد الف و ب درست می‌باشند"
+      ],
+      "correct": 3,
+      "topic": "assembly",
+      "difficulty": "easy",
+      "explain": "پاسخ درست «موارد الف و ب درست می‌باشند» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q106",
+      "text": "کدام‌یک از بخش‌های زیر برای حرکت‌های دینامیکی مناسب است؟",
+      "options": [
+        "Standard Drag",
+        "Collision Detection",
+        "Physical Dynamics",
+        "هیچ‌کدام"
+      ],
+      "correct": 2,
+      "topic": "assembly",
+      "difficulty": "hard",
+      "explain": "پاسخ درست «Physical Dynamics» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q107",
+      "text": "پسوند مناسب جهت Save محیط Assembly چیست؟",
+      "options": [
+        "*.slddrw",
+        "*.sldasm",
+        "*.sldprt",
+        "هیچ‌کدام"
+      ],
+      "correct": 1,
+      "topic": "drawing",
+      "difficulty": "easy",
+      "explain": "پاسخ درست «*.sldasm» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q108",
+      "text": "جهت انجام عمل Array در محیط Assembly به کدام‌یک از دستورات زیر احتیاج داریم؟",
+      "options": [
+        "Plane",
+        "Coordinate System",
+        "Paint",
+        "Axis"
+      ],
+      "correct": 3,
+      "topic": "assembly",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Axis» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q109",
+      "text": "کدام‌یک از دستورات زیر به‌صورت پیش‌فرض در محیط Drawing جهت آوردن نمای نقشه‌ها فعال می‌باشد؟",
+      "options": [
+        "Edit Sheet",
+        "Edit Sheet Format",
+        "Model View",
+        "Section View"
+      ],
+      "correct": 2,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Model View» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q110",
+      "text": "کاربرد دستور Projected View چیست؟",
+      "options": [
+        "نماگیری از نمای موجود در صحنه",
+        "تغییر جهت دید",
+        "آوردن نما به صفحه",
+        "ایجاد نمای استاندارد"
+      ],
+      "correct": 0,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «نماگیری از نمای موجود در صحنه» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q111",
+      "text": "برای ایجاد نما در یک جهت مشخص مثل لبه یک قطعه از کدام دستور می‌توان استفاده کرد؟",
+      "options": [
+        "Drawing View",
+        "Annotation",
+        "Make Section",
+        "Auxiliary View"
+      ],
+      "correct": 3,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Auxiliary View» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q112",
+      "text": "دستور Section برای چه مواردی استفاده می‌شود؟",
+      "options": [
+        "برش ساده",
+        "برش شکسته",
+        "برش موضعی",
+        "کاربرد این دستور برش نمی‌باشد"
+      ],
+      "correct": 0,
+      "topic": "general",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «برش ساده» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q113",
+      "text": "در صورتی که گزینه Break Alignment را فعال نماییم می‌توان:",
+      "options": [
+        "جای همه نماها را دگرگون کرد",
+        "جای فقط نمای انتخابی را تغییر داد",
+        "جای نما را غیرفعال کرد",
+        "جای نما را قفل کرد"
+      ],
+      "correct": 1,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «جای فقط نمای انتخابی را تغییر داد» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q114",
+      "text": "در صورتی که دستور Standard 3 View فعال باشد می‌توان:",
+      "options": [
+        "نماها را به‌صورت استاندارد وارد نمود",
+        "سه نما را به‌صورت همزمان وارد نمود",
+        "فاصله بین نماها به‌صورت استاندارد قرار می‌گیرد",
+        "هر سه مورد فوق درست است"
+      ],
+      "correct": 3,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «هر سه مورد فوق درست است» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q115",
+      "text": "جهت انجام عمل برش موضعی توسط دستور Broken-out Section، ناحیه انتخابی حتماً باید:",
+      "options": [
+        "یک شکل بسته باشد",
+        "یک شکل باز باشد",
+        "می‌تواند دایره باشد",
+        "موارد الف و ج درست است"
+      ],
+      "correct": 3,
+      "topic": "sketch",
+      "difficulty": "hard",
+      "explain": "پاسخ درست «موارد الف و ج درست است» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q116",
+      "text": "جهت بریدن نماهایی که طولانی هستند می‌توان از کدام دستور استفاده کرد؟",
+      "options": [
+        "Compare",
+        "Align",
+        "Break",
+        "Block"
+      ],
+      "correct": 2,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Break» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q117",
+      "text": "جهت بریدن یک نما توسط یک شکل بسته از کدام دستور می‌توان استفاده کرد؟",
+      "options": [
+        "Crop View",
+        "Detail View",
+        "Section View",
+        "Projected View"
+      ],
+      "correct": 0,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Crop View» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q118",
+      "text": "به‌وسیله دستور .................... می‌توان اطلاعات قسمتی از نما را با Scale بزرگ‌تر جهت دید بهتر نشان داد.",
+      "options": [
+        "Projected View",
+        "Crop View",
+        "Detail View",
+        "Compare"
+      ],
+      "correct": 2,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Detail View» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q119",
+      "text": "کدام‌یک از دستورات Drawing زیر با محیط Assembly ارتباط دارد؟",
+      "options": [
+        "Broken-out Section",
+        "Break",
+        "Crop View",
+        "Alternate Position View"
+      ],
+      "correct": 3,
+      "topic": "drawing",
+      "difficulty": "hard",
+      "explain": "پاسخ درست «Alternate Position View» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q120",
+      "text": "پسوند مناسب جهت Save ناحیه Drawing چیست؟",
+      "options": [
+        "*.slddrw",
+        "*.sldprt",
+        "*.sldasm",
+        "هیچ‌کدام"
+      ],
+      "correct": 0,
+      "topic": "drawing",
+      "difficulty": "easy",
+      "explain": "پاسخ درست «*.slddrw» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q121",
+      "text": "مناسب‌ترین روش برای نشان دادن خطوط ندید در نماها چیست؟",
+      "options": [
+        "کشیدن دستی خطوط ندید",
+        "خطوط ندید به هیچ عنوان دیده نمی‌شود",
+        "تعیین وضعیت نمایش",
+        "در هنگام باز کردن محیط Drawing باید این وضعیت تعیین گردد"
+      ],
+      "correct": 2,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «تعیین وضعیت نمایش» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q122",
+      "text": "جهت انتقال اندازه‌هایی که در محیط Part روی قطعه گذاشته شده به محیط Drawing از چه دستوری استفاده کنیم؟",
+      "options": [
+        "Dimension",
+        "Model Items",
+        "Note",
+        "Hole Callout"
+      ],
+      "correct": 1,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Model Items» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q123",
+      "text": "جهت نشان دادن علائم هندسی بر روی نقشه از کدام دستور می‌توان استفاده کرد؟",
+      "options": [
+        "Centerline",
+        "Table",
+        "Geometric Tolerance",
+        "Block"
+      ],
+      "correct": 2,
+      "topic": "drawing",
+      "difficulty": "hard",
+      "explain": "پاسخ درست «Geometric Tolerance» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q124",
+      "text": "در هنگام استفاده از دستور Hole Callout چه اطلاعاتی از نقشه در اختیار کاربر قرار می‌گیرد؟",
+      "options": [
+        "همه اطلاعات سوراخ‌ها",
+        "همه عمق سوراخ‌ها",
+        "همه عرض سوراخ‌ها",
+        "قطر و عمق سوراخ انتخابی"
+      ],
+      "correct": 3,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «قطر و عمق سوراخ انتخابی» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q125",
+      "text": "پسوند مورد نیاز جهت Save الگوی کاغذ، جدول و کادر چیست؟",
+      "options": [
+        "*.slddrt",
+        "*.sldtrt",
+        "*.slddrd",
+        "*.sldrdd"
+      ],
+      "correct": 0,
+      "topic": "drawing",
+      "difficulty": "easy",
+      "explain": "پاسخ درست «*.slddrt» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q126",
+      "text": "کدامین روش تلرانس‌گذاری صحیح است؟",
+      "options": [
+        "۸۰ ± ۲٪",
+        "۸۰ ± ۲",
+        "۸۰ ± ۰٫۲",
+        "موارد الف و ج درست است"
+      ],
+      "correct": 3,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «موارد الف و ج درست است» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    },
+    {
+      "uid": "q127",
+      "text": "جهت ویرایش کادر و جدول مربوط به الگوی کاغذ کدام دستور کاربرد دارد؟",
+      "options": [
+        "Lock Sheet",
+        "Edit Sheet",
+        "Edit Sheet Format",
+        "Edit Drawing Format"
+      ],
+      "correct": 2,
+      "topic": "drawing",
+      "difficulty": "medium",
+      "explain": "پاسخ درست «Edit Sheet Format» است. این گزینه با تعریف و کاربرد استاندارد SolidWorks همخوانی دارد."
+    }
+  ],
+  "topics": {
+    "sketch": "اسکچ",
+    "part": "قطعه (Part)",
+    "assembly": "مونتاژ",
+    "drawing": "نقشه",
+    "sheetmetal": "ورق‌کاری",
+    "general": "عمومی"
+  },
+  "topicCounts": {
+    "general": 15,
+    "sketch": 28,
+    "part": 32,
+    "assembly": 17,
+    "drawing": 29,
+    "sheetmetal": 6
+  },
+  "total": 127
+}
