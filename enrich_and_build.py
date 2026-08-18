@@ -290,7 +290,20 @@ html[data-theme="dark"] .option.selected .mark{
 html[data-theme="dark"] .hint{
   background:rgba(159,227,228,.08);border-color:rgba(159,227,228,.22);color:var(--muted);
 }
-html[data-theme="dark"] .toggle{background:#2f4344}
+html[data-theme="dark"] .toggle{
+  background:#243536;
+  box-shadow:inset 0 0 0 1.5px rgba(245,251,250,.18);
+}
+html[data-theme="dark"] .toggle i{
+  background:#8aa3a2;
+}
+html[data-theme="dark"] .toggle.on{
+  background:#5bc4c6;
+  box-shadow:none;
+}
+html[data-theme="dark"] .toggle.on i{
+  background:#062223;
+}
 html[data-theme="dark"] .modal-back{background:rgba(0,0,0,.66)}
 html[data-theme="dark"] .mode.sim .mode-ico,
 html[data-theme="dark"] .mode-ico,
@@ -454,9 +467,10 @@ html[data-theme="dark"] .about-entry{background:var(--card);color:var(--ink)}
 .row strong{font-size:.92rem}
 .toggle{
   width:50px;height:30px;border:none;border-radius:10px;background:#d5e0df;
-  position:relative;cursor:pointer;transition:background .2s;
+  position:relative;cursor:pointer;transition:background .2s,box-shadow .2s;
+  flex-shrink:0;
 }
-.toggle.on{background:var(--brand2)}
+.toggle.on{background:#14686b}
 .toggle i{
   position:absolute;top:3px;right:3px;width:24px;height:24px;border-radius:8px;background:#fff;
   transition:right .2s cubic-bezier(.2,.8,.2,1);box-shadow:0 1px 4px rgba(0,0,0,.08);
