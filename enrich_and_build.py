@@ -170,7 +170,10 @@ html[data-theme="dark"] {
   --on-brand:#062223;
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-html,body{margin:0;min-height:100%}
+html,body{
+  margin:0;height:100%;height:100dvh;overflow:hidden;
+  overscroll-behavior:none;
+}
 body{
   font-family:var(--font);color:var(--ink);line-height:1.7;
   background-color:var(--surface);
@@ -180,8 +183,7 @@ body{
     radial-gradient(900px 480px at 100% -8%,rgba(24,117,120,.18),transparent 55%),
     radial-gradient(700px 420px at -10% 100%,rgba(184,97,31,.12),transparent 50%);
   background-size:28px 28px,28px 28px,auto,auto;
-  background-attachment:fixed;
-  padding:calc(12px + var(--safe-t)) 14px calc(20px + var(--safe-b));
+  padding:0;
   transition:background-color .25s ease,color .25s ease;
 }
 html[data-theme="dark"] body{
@@ -192,7 +194,11 @@ html[data-theme="dark"] body{
     radial-gradient(700px 420px at -10% 100%,rgba(224,154,92,.1),transparent 50%);
 }
 button,input{font:inherit}
-.app{width:min(540px,100%);margin:0 auto}
+.app{
+  width:min(540px,100%);height:100%;margin:0 auto;
+  overflow:hidden;display:flex;flex-direction:column;
+  padding:calc(12px + var(--safe-t)) 14px calc(16px + var(--safe-b));
+}
 .hidden{display:none!important}
 
 .panel{
@@ -202,7 +208,11 @@ button,input{font:inherit}
   box-shadow:var(--shadow);
   padding:18px 16px 16px;
   backdrop-filter:blur(10px);
-  margin-bottom:12px;
+  margin:0;
+  flex:1;min-height:0;
+  overflow-x:hidden;overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+  overscroll-behavior:contain;
   animation:rise .38s ease both;
 }
 html[data-theme="dark"] .panel{background:rgba(23,37,38,.94)}
@@ -587,7 +597,10 @@ html[data-theme="dark"] .about-entry{background:var(--card);color:var(--ink)}
   background:linear-gradient(135deg,var(--brand2),var(--brand));color:#fff;border-radius:14px;
   padding:12px;margin-bottom:12px;text-align:center;font-weight:700;
 }
-#shareCanvas{position:fixed;left:-9999px;top:0}
+#shareCanvas{
+  position:absolute;width:0;height:0;opacity:0;pointer-events:none;
+  overflow:hidden;visibility:hidden;
+}
 .page-title{margin:0 0 4px;font-size:1.2rem;font-weight:800;color:var(--brand)}
 .page-sub{margin:0 0 14px;color:var(--muted);font-size:.9rem;font-weight:500}
 @media (prefers-reduced-motion:reduce){
@@ -868,9 +881,18 @@ __DATA__
     advanceTimer: null,
   }
 
+  function resetScroll(el) {
+    window.scrollTo(0, 0)
+    document.documentElement.scrollTop = 0
+    document.body.scrollTop = 0
+    if (el) el.scrollTop = 0
+  }
+
   function show(name) {
     screens.forEach((s) => $("screen-" + s).classList.toggle("hidden", s !== name))
-    window.scrollTo({ top: 0, behavior: "smooth" })
+    const panel = $("screen-" + name)
+    resetScroll(panel)
+    requestAnimationFrame(() => resetScroll(panel))
   }
 
   function loadProfile() {
